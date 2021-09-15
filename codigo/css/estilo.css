@@ -23,7 +23,8 @@ body {
 h1 {
   font-size: 2rem;
   line-height: 7em;
-  color: #00b0e7;
+  color:#d33f39;
+  /*color: #00b0e7;*/
   text-align: center;
   margin-top: -210px;
 }
