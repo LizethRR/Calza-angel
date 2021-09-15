@@ -1,0 +1,220 @@
+/* https://github.com/LizethRR/Calza-angel.git */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url(https://fonts.google.com/specimen/Baloo+2);
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  /*font-size: 1rem;
+  line-height: 1.3em; */
+}
+/* imagen inicial */
+.fondo1 {
+  /* float: center;  */
+  margin-top: 10px;
+  margin: 20px;
+}
+/* Quienes somos */
+h1 {
+  font-size: 2rem;
+  line-height: 7em;
+  color: #00b0e7;
+  text-align: center;
+  margin-top: -210px;
+}
+p {
+  line-height: 25px;
+  /* float: right;
+  margin-right: 20px; */
+}
+/* parrafo inicial */
+.in {
+  font-family: "Baloo2";
+  color: #d33f39;
+  float: center;
+  margin:100px 50px 0px;
+}
+.intro {
+  /* float: left; */
+  margin: -50px 30px 10px;
+  /* clear:both; */
+}
+.container {
+  position: absolute;
+  width: 80;
+  max-width: 850px;
+}
+
+.inicial {
+  background: black;
+  height: 120px;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+/* imagen tienda */
+.azul {
+  /* float: left; */
+  margin-left: 40px;
+  margin-top: 15px;
+  margin:50px;
+}
+nav ul {
+  /* float: center; */
+  margin-top: 5px;
+  margin-left: 250px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 15px;
+  line-height: 80px;
+  margin-left: 20px;
+  /* margin: 2px; */
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7px 13px;
+}
+
+/* Buscador */
+.search-box {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-10%, -80%);
+  background: none;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+  width: 140px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+  background: none;
+}
+.search-btn {
+  color: #00b0e7;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: right;
+  padding: 0;
+  color: white;
+  font-size: 16 px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #cecece;
+  float: left;
+  line-height: 80px;
+  margin-left: 100px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+/* Mision */
+h2 {
+  float: left;
+  margin: 150px 20px 20px;
+  font-size: 50px;
+  color: #d33f39;
+  line-height: 4em;
+}
+.mision {
+  font-size: 1rem;
+  float: right;
+  margin:0px 20px 30px;
+}
+.mis {
+  width: 500px;
+  height: 500px;
+  float: right;
+  margin: 120px 20px 40px;
+}
+/* Vision */
+h3 {
+  font-size: 50px;
+  color: #d33f39;
+  line-height: 4em;
+  float: right;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.vision {
+  font-size: 1rem;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.carro {
+  width: 10%;
+  height: 10%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/* Footer */
+.redes {
+  margin-top:680px;
+  background: black;
+  height: 200px;
+  width: 100%;
+}
+.logo2{
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.whatsapp {
+  float: left;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.facebook {
+  float: left;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.redes-txt {
+  color: white;
+}
