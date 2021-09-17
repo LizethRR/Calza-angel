@@ -1,102 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <title>Calzaangel</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="icon" type="logosinfondo/png" href="fotos/logosinfondo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-<head>
+    <!--icono de la ventana-->
+    <link rel="carrito" type="" href="fotos/carro.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
 
-  <title>Calzaangel</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/estilo.css">
-  <link rel="icon" type="logosinfondo/png" href="fotos/logosinfondo.png">
-  <!--icono de la ventana-->
-  <link rel="carrito" type="" href="fotos/carro.png">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
-  </script>
-  <title>Barra de Busqueda</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,
-        maximum-scale=1.0, minimum-scale =1.0">
-</head>
+    <!-- <title class="">Barra de Busqueda</title> -->
+    <!-- <meta name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0,
+        maximum-scale=1.0, minimum-scale =1.0"
+    /> -->
+  </head>
 
-<body>
-  <header class="inicial">
-    <nav>
-      <div class="container">
-        <img class="logo" src="fotos/logosinfondo.png" alt="" class="logo" />
-        <img class="carro" src="fotos/carro.png">
-      </div>
+  <body>
+    <header class="inicial" max-width="1920px">
+      <nav>
+        <div class="container">
+          <img class="logo" src="fotos/logosinfondo.png" />
+          <img class="carro" src="fotos/carro.png" />
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <!-- menu hamburguess -->
+          <div class="respmenu">
+            <input type="checkbox" />
+            <i class="hamburguesa">menu</i>
+            <i class="cerrar">close</i>
+            <nav>
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Quiénes Somos</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contactenos</a></li>
+              </ul>
+            </nav>
+          </div>
+        </label>
 
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-    <!-- menu -->
-      <ul class "nav-menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Quiénes Somos</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Contactenos</a></li>
-      </ul>
-      
-<!-- Buscador -->
-      <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Buscar productos">
-        <a class="search-btn" href="#"> 
-          <i class="fas fa-search"></i>
-        </a>
-      </div>
+        <!-- menu -->
+        <ul class="nav-menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Quiénes Somos</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contactenos</a></li>
+        </ul>
 
-    </nav>
-  </header>
-  <main class="main">
-    <div class="container2">
-      <!-- imagen inicial     -->
-      <img class="fondo1" src="fotos/fondo1.png" width="97%" height="200">
-      <h1>CONÓCENOS</h1>
-      <!-- imagen tienda -->
-        <img class="azul" src="fotos/azul.jpeg" width="500" height="500" align="left">
-      
-<!-- introduccion -->
-      <h1 class=in>¿Quiénes somos?</h1>
-        <p class=intro>
-        Trabajamos en ofrecer a mujeres, hombres y niños la libertad de lucir ropa y calzado moderno,<br>
-        clásico, urbano y deportivo que les permita mantener su propia identidad, conservando una<br>
-        excelente calidad	de los productos y comodidad en los precios.<br><br>
-        Nos encontramos en el municipio de Ubaté Cundinamarca	estamos en el mercado desde el 11<br>
-        de febrero de 2020.
+        <!-- Buscador -->
+        <div class="search-box">
+          <input
+            class="search-txt"
+            type="text"
+            name=""
+            placeholder="Buscar productos"
+          />
+          <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="container2">
+        <!-- imagen inicial     -->
+        <img class="fondo1" src="fotos/fondo1.png" width="97%" height="200" />
+        <h1>CONÓCENOS</h1>
+        <!-- imagen tienda -->
+        <img
+          class="azul"
+          src="fotos/azul.jpeg"
+          width="500"
+          height="500"
+          align="left"
+        />
+
+        <!-- introduccion -->
+        <h1 class="in">¿Quiénes somos?</h1>
+        <p class="intro">
+          Trabajamos en ofrecer a mujeres, hombres y niños la libertad de lucir
+          ropa y calzado moderno,<br />
+          clásico, urbano y deportivo que les permita mantener su propia
+          identidad, conservando una<br />
+          excelente calidad de los productos y comodidad en los precios.<br /><br />
+          Nos encontramos en el municipio de Ubaté Cundinamarca estamos en el
+          mercado desde el 11<br />
+          de febrero de 2020.
         </p>
- 
-<!-- mision -->
-      <h2> Misión </h2>
-      <img class="mis" src="fotos/uno.png" align="right">
-      <p class=mision>
-        Ofrecer a nuestros clientes productos de calidad, a precios cómodos que cumplan con<br>
-        sus necesidades y exigencias, abarcando sus gustos de acuerdo a su estilo de ver y vivir la vida.
-      </p>
-      <!-- vision -->
-      <h3> Visión </h3>
-      <p class=vision>
-        Ser una empresa lider y reconocida en la venta de ropa y zapatos, lograr tambien<br>
-        extendernos y crear nuestras cadenas de almacenes, proporcionando cada dia más<br>
-        un servicio de excelencia a nuestros clientes y que al mismo tiempo nos permitan<br>
-        competir en el mercado nacional con los mejores precios del mercado.
-      </p>
-    </div>
-  </main>
-<!-- footer -->
-  <footer class="redes">
-    <div class="fotter-content">    
-      <img class="logo2" src="fotos/logosinfondo.png"/>       
-      <img class="whatsapp" src="fotos/WW.png" width="70" height="50>
-      <img class="facebook" src="fotos/fa.png" width="70" height="50>
-      <!-- <img class="whatsapp" src="WW.png" alt=""> -->
-      <ul class="contacto">
-        <li><a href="#">+3227931215</a></li>
-        <li><a href="#">calzang</a></li>
-        <li><a href="#">Almacen Calzaangel</a></li>
-      </ul>
-    </div>
-  </footer>
 
-</body>
+        <img class="mis" src="fotos/uno.png" align="right" />
+        <ul class="inf">
+          <li><h2>Misión</h2></li>
+          <li>
+            <p class="mision">
+              Ofrecer a nuestros clientes productos de calidad, a precios
+              cómodos que cumplan con<br />
+              sus necesidades y exigencias, abarcando sus gustos de acuerdo a su
+              estilo de ver y vivir la vida.
+            </p>
+          </li>
+          <li><h3>Visión</h3></li>
+          <li>
+            <p class="vision">
+              Ser una empresa lider y reconocida en la venta de ropa y zapatos,
+              lograr tambien<br />
+              extendernos y crear nuestras cadenas de almacenes, proporcionando
+              cada dia más<br />
+              un servicio de excelencia a nuestros clientes y que al mismo
+              tiempo nos permitan<br />
+              competir en el mercado nacional con los mejores precios del
+              mercado.
+            </p>
+          </li>
+        </ul>
+        <!-- mision -->
+        <!-- <h2>Misión</h2>
+        <img class="mis" src="fotos/uno.png" align="right" />
+        <p class="mision">
+          Ofrecer a nuestros clientes productos de calidad, a precios cómodos
+          que cumplan con<br />
+          sus necesidades y exigencias, abarcando sus gustos de acuerdo a su
+          estilo de ver y vivir la vida.
+        </p> -->
 
+        <!-- vision -->
+        <!-- <h3>Visión</h3>
+        <p class="vision">
+          Ser una empresa lider y reconocida en la venta de ropa y zapatos,
+          lograr tambien<br />
+          extendernos y crear nuestras cadenas de almacenes, proporcionando cada
+          dia más<br />
+          un servicio de excelencia a nuestros clientes y que al mismo tiempo
+          nos permitan<br />
+          competir en el mercado nacional con los mejores precios del mercado.
+        </p> -->
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="redes">
+      <div class="fotter-content">
+        <img class="logo2" src="fotos/logosinfondo.png" />
+        <img class="whatsapp" src="fotos/WW.png" width="80" height="50" />
+        <img class="facebook" src="fotos/fa.png" width="50" height="50" />
+        <img
+          class="instagram"
+          src="fotos/instagram.png"
+          width="60"
+          height="60"
+        />
+
+        <ul class="secciones">
+          <li><title href="#">Secciones</title></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Quiénes Somos</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contactenos</a></li>
+          <li><a href="#">Carrito</a></li>
+        </ul>
+
+        <ul class="ubicación">
+          <li><title href="#">Ubicación</title></li>
+          <li><a href="#">Carrera 6 # 9 - 73, Ubaté - Cundinamarca</a></li>
+          <li><a href="#">Horario de atención 8:00am - 5:00pm</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
