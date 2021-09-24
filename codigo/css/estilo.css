@@ -11,37 +11,34 @@
 body{
     
     font-family: 'Roboto', sans-serif;
-    /*font-size: 1rem;
-    line-height: 1.3em;*/    
+    
 }
 
 .inicial {
     background: black;
-    height: 120px;
+    height: 165px;
     width: 100%;
+    margin-top: 0px;
 }
-.cabeza{
-  margin: 5px 0px 40px;
-}
+
 /* imagen inicial */
 .fondo {
-    /* float: center;  */
+   
     margin: 60px 15px 80px;
-    height: 300px;
-    width: 98%;
+    height: 400px;
+    width: 97%;
     /*opacity: 90%;*/
   }
 .enlace 
 {
-    position: absolute;
-  
- }
+    position: absolute; 
+}
 .Logo
  {
-    width: 200px;
-    height: 100px;
+    width: 231px;
+    height: 112px;
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: 26px;
 }
 .container{
   /*display: flex;*/
@@ -52,22 +49,22 @@ body{
     width: 90px;
     height: 50px;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left:5px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .usuario{
 
-   width:  60px;
-   height: 50px;
+   width:  43px;
+   height: 43px;
    float: right;
-   margin-top: 30px;
-   margin-right: 20px;
+   margin-top: 55px;
+   margin-right: 40px;
 } 
 .azul{
-  width:"500";
-  height:"500";
+  width: 910px;
+  height: 800px;
   float: left; 
   margin-top: 80px;
   margin-left: 86px;
@@ -79,12 +76,12 @@ body{
 nav ul {
     
     margin-top: 5px;
-    margin-left: 250px;
+    margin-left: 450px;
 }
   
 nav ul li {
     display: inline-block;
-   /* margin-top: 15px;*/
+     margin-top: 18px;
     line-height: 120px;
     margin-left: 30px;
     /* margin: 2px; */
@@ -92,7 +89,7 @@ nav ul li {
   
 nav ul li a {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     padding: 7px 13px;
 }
   
@@ -109,16 +106,29 @@ nav ul li a {
 #check {
     display: none;
 }
+
+/* tablet 768 px*/
+@media(max-width: 768px){
+  
+  .menu{
+    position: absolute;
+    background: #8AFFEA;
+    flex-direction: column;
+    width: 70%;
+    margin-left: -70%;
+  }
+}
 /*tablet 952 pixeles*/
 
-@media(max-width: 952px){
+
+/*@media(max-width: 952px){
     .enlace{
       padding-left: 20px;
     }
     nav ul li a{
       font-size: 16px;
     }
-}
+}*/
 /*celular*/
 @media (max-width: 858px)
 {
@@ -209,7 +219,7 @@ h2 {
     font-family: "Baloo2", "Tahoma";
     /*font-size: 2rem;
     line-height: 7em;*/
-    font-size: 30px;
+    font-size: 55px;
     line-height: 170px;
     color:#d33f39;
     text-align: left;
@@ -222,8 +232,11 @@ p {
 }
   
 .intro {
+  
    margin-bottom: 280px;
    margin-left: 86px;
+   margin-right: 86px;
+   font-size: 25px;
   
 }
 /* Mision */
@@ -239,21 +252,20 @@ h3 {
     font-size: 50px;
     color: #d33f39;
     line-height: 4em;
-    margin-top: 500px;
+    margin-top: 400px;
 }
   
 .mision {
 
     font-size: 1rem;
-    width: 845px;
-    height: 100px;
-    left: 83px;
     text-align: right;
     margin-top: -20px;
+    font-size: 25px; 
    
 }
   
 .mis {
+
     width: 650px;
     height: 650px;
     float: right; 
@@ -265,28 +277,24 @@ h4 {
   
   font-size: 50px;
   color: #d33f39;
-  width: 845px;
-  height: 100px;
-  margin-left: 83px;
+  line-height: 4em;
   text-align: right;
   margin-top: 10px;
+
 }
   
 .vision {
     
-  font-size: 1rem;
   text-align: right;
-  width: 852px;
-  height: 145px;
-  margin-left: 88px;
   margin-top:-20px;
+  font-size: 25px;
     
 }
   
   /* Footer */
 .redes {
-    /*margin-top: 80px;*/ 
-    background: black;
+    /*margin-top: 80px; 
+    background: black;*/  
     height: 250px;
     width: 100%;
   }
@@ -330,3 +338,4 @@ h4 {
     margin-right: 50px;
     margin-top: -5px;
   }
+
